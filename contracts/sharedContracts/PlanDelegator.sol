@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity 0.8.19;
-import '@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol';
+import '@oz_hedgey/contracts/token/ERC721/extensions/ERC721Enumerable.sol';
 
 abstract contract PlanDelegator is ERC721Enumerable {
   // mapping of tokenId to address who can delegate an NFT on behalf of the owner

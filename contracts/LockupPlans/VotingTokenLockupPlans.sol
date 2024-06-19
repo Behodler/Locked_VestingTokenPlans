@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity 0.8.19;
 
-import '@openzeppelin/contracts/token/ERC721/ERC721.sol';
-import '@openzeppelin/contracts/utils/Counters.sol';
+import '@oz_hedgey/contracts/token/ERC721/ERC721.sol';
+import '@oz_hedgey/contracts/utils/Counters.sol';
 import '../sharedContracts/PlanDelegator.sol';
-import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
+import '@oz_hedgey/contracts/security/ReentrancyGuard.sol';
 import '../libraries/TransferHelper.sol';
 import '../libraries/TimelockLibrary.sol';
 import '../sharedContracts/VotingVault.sol';

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-import '@openzeppelin/contracts/token/ERC20/ERC20.sol';
-import '@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol';
+import '@oz_hedgey/contracts/token/ERC20/ERC20.sol';
+import '@oz_hedgey/contracts/token/ERC20/extensions/ERC20Votes.sol';
 
 contract FakeToken is ERC20Votes {
   uint8 private _decimals;

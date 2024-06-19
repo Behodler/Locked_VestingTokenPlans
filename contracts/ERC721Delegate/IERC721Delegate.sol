@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
-import '@openzeppelin/contracts/token/ERC721/IERC721.sol';
-import '@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol';
+import '@oz_hedgey/contracts/token/ERC721/IERC721.sol';
+import '@oz_hedgey/contracts/token/ERC721/extensions/IERC721Enumerable.sol';
 
 /**
  * @title ERC-721 Non-Fungible Token Standard, optional enumeration extension
