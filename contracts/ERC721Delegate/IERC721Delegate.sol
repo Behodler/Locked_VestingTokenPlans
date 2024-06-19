@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
+pragma solidity 0.8.20;
 
 import '@oz_hedgey/contracts/token/ERC721/IERC721.sol';
 import '@oz_hedgey/contracts/token/ERC721/extensions/IERC721Enumerable.sol';
